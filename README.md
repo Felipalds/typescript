@@ -1,8 +1,15 @@
 # Typescript
+@Felipalds
 - Superset para Javascript
 - Tipagens (types) fortes
 - Usar em: projetos de escala e projetos open-source (documentação)
 - É convertido para Javascript no final, então o ganho não é em performance, mas sim em produtividade e desenvolvimento, muito disso pela tipagem, que obriga o projeto a ser "documentado"
+
+## Vantagens
+- Facilidade na leitura do código e na busca por features das bibliotecas
+- Autocomplete
+- Segurança de código
+- Menos preocupação com código
 
 ## Início do desenvolvimento
 - yarn init -y
