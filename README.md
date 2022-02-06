@@ -1,6 +1,7 @@
-# Typescript
+# TypeScript
 @Felipalds
-- Superset para Javascript
+## O que é o TypeScript?
+Typescript é um superset para JavaScript, que acrescenta a tipagem, as interfaces e muitas outras coisas.
 - Tipagens (types) fortes
 - Usar em: projetos de escala e projetos open-source (documentação)
 - É convertido para Javascript no final, então o ganho não é em performance, mas sim em produtividade e desenvolvimento, muito disso pela tipagem, que obriga o projeto a ser "documentado"
@@ -12,7 +13,7 @@
 - Menos preocupação com código
 
 ## Início do desenvolvimento
-- yarn init -y
+- ```yarn init -y```
 - yarn add -D typescript (instalar typescript como dependência do projeto)
 - yarn add express
 
