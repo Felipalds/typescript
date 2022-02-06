@@ -13,8 +13,8 @@ Typescript é um superset para JavaScript, que acrescenta a tipagem, as interfac
 - Menos preocupação com código
 
 ## Início do desenvolvimento
-```yarn init -y```
-Vamos instalar o TypeScript, e é tão simples quanto:
+```yarn init -y``` <br>
+Vamos instalar o TypeScript, e é tão simples quanto: <br>
 ```yarn add -D typescript``` (instalar typescript como dependência do projeto)
 - yarn add express
 
