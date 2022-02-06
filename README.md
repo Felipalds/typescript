@@ -45,10 +45,12 @@ Uma das maneiras novas para se importar bibliotecas é 100% compatível com o Ty
 ## TypeScript em si
 - Tipagem pode ser inferida pelo próprio Typescript de forma automática
 - ```function getUsername(): string { }```  -> definimos a tipagem de RETORNO para uma função
-- quando você precisa criar uma tipagem para algum parâmetro ou variável, pode criar uma *interface*
-- ```interface INomeInterface {
+- quando você precisa criar uma tipagem para algum parâmetro ou variável, pode criar uma *interface*<br>
+```
+interface INomeInterface {
     name: string;
     email: string;
     nao_obrigatorio ?: Array<string>;
     nao_obrigatorio_2 ?: string[];
-}```
+}
+```
