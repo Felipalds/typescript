@@ -32,10 +32,11 @@ Uma das maneiras novas para se importar bibliotecas é 100% compatível com o Ty
 - ```node src/index.js```
 
 ## TSconfig
+<a href="https://www.typescriptlang.org/docs/handbook/compiler-options.html" target="_blank">Ver documentação oficial</a><br>
 - ```yarn tsc --config```
-- é um arquivo de configurações para o desenvolvimento em Typescript. Ao ter este arquivo instalado, provavelmente não acontecerá mais o erro de "export default"
-- *yarn tsc* apenas
-- "outDir" -> Onde o código transpilado irá parar. Coloque uma pasta caso queira que o Javascript seja separado do Typescript (boa prática)
+- É um arquivo .json de configurações para o desenvolvimento em TypeScript. Possui várias flags para ajudar no desenvolvimento
+- *outDir* -> onde o código transpilado irá parar. Coloque uma pasta caso queira que o Javascript seja separado do TypeScript (boa prática)
+- *lib* ->  são as bibliotecas padrão disponíveis no projeto, por exemplo, em projetos web, terá a biblioteca "dom".
 
 ## Fluxo de desenvolvimento
 - ```yarn add ts-node-dev -D```
